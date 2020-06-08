@@ -1,0 +1,1 @@
+bash quickstart.sh -R master -r /home/deployer/tripleo-quickstart/../voluptuous-requirements.txt -r quickstart-extras-requirements.txt --environment config/environments/ovirt_openstack.yml --nodes config/nodes/ovirt_openstack.yml --config config/general_config/ovirt_openstack.yml --no-clone -v --clean 192.168.222.220
